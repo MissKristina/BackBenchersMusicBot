@@ -10,18 +10,18 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**Hey, I'm {bn} 🎵
 
-I'm Private music of @TheRiZoeL For group's voice call. Developed by [ℝ𝚒ℤ𝚘𝚎𝕃](https://t.me/TheRiZoeL).
+I'm Private music of @BACKBENCHERSXD For group's voice call. Developed by [who cares <3](https://t.me/PR4TIK_XD ).
 
-If you want to add this Bot in your group Contact @TheRiZoeL**
+If you want to add this Bot in your group Contact @PR4TIK_XD**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🥀ℝ𝚒ℤ𝚘𝚎𝕃", url="https://t.me/TheRiZoeL")
+                        "who cares <3", url="https://t.me/PR4TIK_XD")
                   ],[ 
                     InlineKeyboardButton(
-                        "ᴅɴʜxʜᴇʟʟ", url="https://t.me/DNHxHELL"
+                        "🔥⌈ʙᴀᴄᴋ ʙᴇɴᴄʜᴇʀs⌋ ⚡️⛓", url="https://t.me/BACKBENCHERSXD"
                     )]
             ]
         ),
@@ -30,12 +30,12 @@ If you want to add this Bot in your group Contact @TheRiZoeL**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**RiZoeL Music Player Online ✅**""",
+      await message.reply_text("""**BackBenchers Music Player Online ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "RiZoeL", url="https://t.me/RiZoeL")
+                        "who cares <3", url="https://t.me/PR4TIK_XD")
                 ]
             ]
         )
